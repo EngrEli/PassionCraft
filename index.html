@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:image" content="og.png"/>
+	<link rel="icon" type="image/x-icon" href="./assets/img/cake.ico">
+    <title>Passion Craft</title>
+    <link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+</head>
+<body>
+	<div class="sidebar">
+		<ul class="sidebar__menu">
+			<i class="fa fa-times sidebar__close" aria-hidden="true"></i>
+			<li><a><i class="fa fa-search" aria-hidden="true" title="Search"></i> SEARCH</a></li>
+			<li><a><i class="fa fa-user" aria-hidden="true" title="Profile"></i> PROFILE</a></li>
+			<li><a><i class="fa fa-shopping-cart" aria-hidden="true" title="Shopping Cart"></i> CART</a></li>
+			<li><a>SIGNATURE CAKES</a></li>
+			<li><a>BESPOKE CAKES</a></li>
+			<li><a>WEDDING CAKES</a></li>
+			<li><a>CAKESICLES</a></li>
+			<li><a>CHOCOLATES</a></li>
+			<li><a>MASTER CLASSES</a></li>
+		</ul>
+	</div>
+	<div class="sidebar-overlay">
+	</div>
+	<div class="mainbg">
+		<div class="upper-wrapper">
+			<nav class="navbar">
+				<a href="#" class="navbar__company">
+					<div class="navbar__company-icon"><img src="./assets/img/logo.svg"></div>
+				</a>
+				<ul class="navbar__links">
+					<li><a>SIGNATURE CAKES</a></li>
+					<li><a>BESPOKE CAKES</a></li>
+					<li><a>WEDDING CAKES</a></li>
+					<li><a>CAKESICLES</a></li>
+					<li><a>CHOCOLATES</a></li>
+					<li><a>MASTER CLASSES</a></li>
+				</ul>
+				<div class="navbar__icons">
+					<i class="fa fa-search" aria-hidden="true" title="Search"></i>
+					<i class="fa fa-user" aria-hidden="true" title="Profile"></i>
+					<i class="fa fa-shopping-cart" aria-hidden="true" title="Shopping Cart"></i>
+				</div>
+				<i class="fa fa-bars navbar__hamburger" aria-hidden="true"></i>
+			</nav>
+			<div class="hero">
+				<h1 class="hero__main-text">
+					Passion Craft
+				</h1>
+				<button class="hero__cta">
+					ORDER NOW
+				</button>
+				<button class="hero__scroll-btn">MORE <i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+			</div>
+		</div>
+	</div>
+	<!-- Cake Gallery -->
+	<div class="cakes">
+		<div class="cakes__card">
+			<img src="./assets/img/birthdaycake.jpg" alt="birthday cake">
+			<div class="cakes__card-text">Birthday Cakes</div>
+		</div>
+		<div class="cakes__card">
+			<img src="./assets/img/weddingcake.jpg" alt="wedding cake">
+			<div class="cakes__card-text">Wedding Cakes</div>
+		</div>
+		<div class="cakes__card">
+			<img src="./assets/img/christmascake.jpg" alt="christmas cake">
+			<div class="cakes__card-text">Christmas Cakes</div>
+		</div>
+	</div>
+	<!-- // Cake Gallery -->
+	<!-- About Section -->
+	<div class="about">
+		<div class="about__container">
+			<h2 class="about__title">
+				About the <br> Cake Boutique
+			</h2>
+			<div class="about__content">
+				The Cake Boutique combines craftsmanship and complexity into original cake design where delicious flavor and art are synonymous, bringing beauty into the most ordinary days. The Cake Boutique is Dubai’s first and only exclusively-online cake shop. Innovative and advanced beyond the cake design industry today, award-winning Cake Artist, Beth’s designs, are one-of-a-kind, featuring digitally sketched illustrations that are unique to the Waldorf Astoria DIFC.
+			</div>
+		</div>
+	</div>
+	<!-- // About Section -->
+	<!-- Cake Showcase -->
+	<div class="cake-showcase">
+		<div class="cake-showcase__initial-row">
+		  <div class="cake-showcase__image-container">
+			<img src="/assets/img/cake1.jpg" alt="cake 1">
+		  </div>
+		  <div class="cake-showcase__image-container">
+			<img src="/assets/img/cake2.jpg" alt="cake 2">
+		  </div>
+		  <div class="cake-showcase__image-container">
+			<img src="/assets/img/cake3.jpg" alt="cake 3">
+		  </div>
+		  <div class="cake-showcase__image-container">
+			<img src="/assets/img/cake4.jpg" alt="cake 4">
+		  </div>
+		</div>
+		<div class="cake-showcase__second-row">
+		  <div class="cake-showcase__image-container">
+			<img src="/assets/img/cake5.jpg" alt="cake 5">
+		  </div>
+		  <div class="cake-showcase__image-container">
+			<img src="/assets/img/cake6.jpg" alt="cake 6">
+		  </div>
+		  <div class="cake-showcase__image-container">
+			<img src="/assets/img/cake7.jpg" alt="cake 7">
+		  </div>
+		  <div class="cake-showcase__image-container">
+			<img src="/assets/img/cake8.jpg" alt="cake 8">
+		  </div>
+		</div>
+	  </div>
+	<!-- // Cake Showcase -->
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer__flex">
+			<div class="footer__newsletter">
+				<h3>Newsletter</h3>
+				<div class="footer__newsletter-form">
+					<div class="form__group field">
+						<input type="input" class="form__field" placeholder="Email Address" name="email" id='email' required />
+						<label for="email" class="form__label">Email Address</label>
+					</div>
+					<div class="form__group field">
+						<input type="input" class="form__field" placeholder="First Name" name="fName" id='fName' required />
+						<label for="fName" class="form__label">First Name</label>
+					</div>
+					<div class="form__group field">
+						<input type="input" class="form__field" placeholder="Last Name" name="lName" id='lName' required />
+						<label for="lName" class="form__label">Last Name</label>
+					</div>
+					<div class="form__group field">
+						<input type="input" class="form__field" placeholder="Phone Number" name="phoneNumber" id='phoneNumber' required />
+						<label for="phoneNumber" class="form__label">Phone Number</label>
+					</div>
+				</div>
+				<div class="footer__permissions">
+					<h3>Marketing Permissions</h3>
+					<label class="footer__permissions-checkbox">Email
+						<input type="checkbox">
+						<span class="footer__permissions-checkmark"></span>
+					</label>
+					<label class="footer__permissions-checkbox">SMS
+						<input type="checkbox">
+						<span class="footer__permissions-checkmark"></span>
+					</label>
+					<span>
+						By signing up you are agreeing to receive the latest <br>
+						news and exclusive offers from our restaurants.
+					</span>
+					<button class="footer__subscribe-btn">Subscribe</button>
+				</div>
+			</div>
+			<div class="footer__cont-links">
+				<div class="footer__flexbox">
+					<ul class="footer__links">
+						<li>Signature Cakes</li>
+						<li>Bespoke Cakes</li>
+						<li>Wedding Cakes</li>
+						<li>Cakesicles</li>
+						<li>Chocolates</li>
+						<li>Master Classes</li>
+					</ul>
+				</div>
+				<div class="footer__flexbox">
+					<ul class="footer__links">
+						<li>Payment And Delivery</li>
+						<li>Help Center</li>
+						<li>FAQs</li>
+						<li>Contact Us</li>
+						<li class="footer__socials">
+							<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</li>
+						<li class="footer__links-card">
+							<img src="/assets/img/visa.png" alt="">
+							<img src="/assets/img/mastercard.png" alt="">
+							<img src="/assets/img/american-express.png" alt="">
+							<img src="/assets/img/paypal.png" alt="">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="copyright">
+		© 2023 The Cake Boutique. All rights reserved.
+		<i class="fa-brands fa-tiktok"></i>
+	</div>
+	<!-- / Wrapper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="./js/sidebar.js"></script>
+</body>
+</html>
