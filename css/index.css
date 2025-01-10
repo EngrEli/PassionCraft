@@ -200,7 +200,7 @@ html {
 }
 
 .mainbg {
-	background: rgba(0, 0, 0, 0.8) url("/assets/img/banner.jpg") no-repeat center / cover fixed;
+	background: rgba(0, 0, 0, 0.8) url("../assets/img/banner.jpg") no-repeat center / cover fixed;
 }
   
 .upper-wrapper {
